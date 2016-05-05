@@ -6,6 +6,9 @@
 
 echo "› rerolling"
 
+echo "› make ~/Applications"
+mkdir -p ~/Applications
+
 # Install homebrew
 if test ! $(which brew)
 then
@@ -28,7 +31,6 @@ echo "› making brew"
 
 # Unix
 brew "git"
-brew "rcm"
 
 # Heroku
 brew "heroku-toolbelt"

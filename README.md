@@ -6,9 +6,3 @@ Copying the dotfiles is fairly destructive right now.
 
 ## Credits
 * Bash profile originally based on the lovely bashstrap (https://github.com/barryclark/bashstrap)
-
-## @TODO
-* Setup `homebrew` and install various items that I always need. [DONE]
-* Bash profile customization and updates.
-* Determine if I can setup iTerm profile from command line.
-* Git config.
