@@ -4,6 +4,9 @@
 # "a ." will open the current directory in Atom
 alias a='open -a "atom"'
 
+# Clear out various auto-created OSX dotfiles.
+alias sweep="find . -name .DS_Store -type f -delete ; find -name .Trashes -type d -delete ; find . -type d | xargs dot_clean -m"
+
 # Color LS
 colorflag="-G"
 alias ls="command ls ${colorflag}"
