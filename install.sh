@@ -22,9 +22,9 @@ brew update
 
 # Tab additional formulae
 echo "› tap some formulae"
-tap "thoughtbot/formulae"
-tap "homebrew/bundle"
-tap "homebrew/services"
+brew tap "thoughtbot/formulae"
+brew tap "homebrew/bundle"
+brew tap "homebrew/services"
 
 # Brew
 echo "› making brew"
