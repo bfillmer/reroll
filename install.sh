@@ -25,42 +25,39 @@ echo "› tap some formulae"
 brew tap "thoughtbot/formulae"
 brew tap "homebrew/bundle"
 brew tap "homebrew/services"
+brew tap "caskroom/cask"
 
 # Brew
 echo "› making brew"
 
 # Unix
-brew "git"
-
-# Heroku
-brew "heroku-toolbelt"
-brew "parity"
+brew install "git"
 
 # Git
-brew "gitsh"
+brew install "gitsh"
 
 # Programming languages
-brew "node"
-brew "rbenv"
-brew "ruby-build"
+brew install "node"
+brew install "rbenv"
+brew install "ruby-build"
 
 # Databases
-brew "postgres", restart_service: true
-brew "redis", restart_service: true
+brew install "postgres", restart_service: true
+brew install "redis", restart_service: true
 
 # Casks
 echo "› opening casks"
 
 # Development
-cask "atom"
-cask "firefox"
-cask "google-chrome"
-cask "iterm2"
-cask "slack"
+brew cask install "atom"
+brew cask install "firefox"
+brew cask install "google-chrome"
+brew cask install "iterm2"
+brew cask install "slack"
 
 # Music
-cask "spotify"
-cask "spotify-notifications"
+brew cask install "spotify"
+brew cask install "spotify-notifications"
 
 # Backup dotfiles
 echo "› dotfile backup"
