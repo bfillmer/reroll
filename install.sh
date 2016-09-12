@@ -41,10 +41,6 @@ brew install "node"
 brew install "rbenv"
 brew install "ruby-build"
 
-# Databases
-brew install "postgres", restart_service: true
-brew install "redis", restart_service: true
-
 # Casks
 echo "› opening casks"
 
