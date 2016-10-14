@@ -16,7 +16,7 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Upgrade homebrew
+# Update homebrew
 echo "› brew update"
 brew update
 
@@ -40,6 +40,7 @@ brew install "gitsh"
 brew install "node"
 brew install "rbenv"
 brew install "ruby-build"
+brew install "yarn"
 
 # Casks
 echo "› opening casks"
