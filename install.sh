@@ -13,7 +13,7 @@ mkdir -p ~/Applications
 if test ! $(which brew)
 then
   echo "› install homebrew"
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Update homebrew
@@ -30,16 +30,10 @@ brew tap "caskroom/cask"
 # Brew
 echo "› making brew"
 
-# Unix
-brew install "git"
-
 # Git
 brew install "gitsh"
 
 # Programming languages
-brew install "node"
-brew install "rbenv"
-brew install "ruby-build"
 brew install "yarn"
 
 # Casks
